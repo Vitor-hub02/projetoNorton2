@@ -1,0 +1,147 @@
+html, body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+  
+header {
+  background-color: #4E4C97;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+  
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+  
+.products {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.cart {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.cart h2 {
+  color: #4E4C97;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+  
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+  
+#cart-items li {
+  margin-bottom: 10px;
+}
+  
+#cart-total {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4E4C97;
+}
+
+footer {
+  background-color: #4E4C97;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.payment-methods img {
+  width: 50px;
+  margin: 10px;
+}
+
+.security-info img {
+  width: 90px;
+  margin: 10px;
+}
+
+.paragrafo-footer {
+  text-align: center; 
+  margin-top: 10px; 
+}
+
+.footer-float {
+  display: block; 
+}
+
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+     /* Ajuste a largura conforme necessário */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: rgb(32, 109, 32);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 78%;
+    cursor: pointer;
+  
+}
+
+.add-to-cart:hover {
+    zoom: 102%
+
+}
+
+.remove-from-cart{
+    background-color: rgb(194, 38, 32);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 20%;
+    cursor: pointer;
+}
